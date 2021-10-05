@@ -22,7 +22,6 @@ Cymru로도 체크해보았는데, ASNUM을 대조해보면 다른 결과를 얻
 
 ![Screenshot from 2021-08-12 21-38-24](https://user-images.githubusercontent.com/47383452/129198120-5c7953df-5009-49ac-b81e-7cf77a1db767.png)
 
-각각 북한 AS와 관련(연결)있는 AS로 유추가 되며,
-Geo IP service를 활용해 알아본 것이라 175.45.176.0/22 이외 IP대역은 부정확할 수 있습니다.!
+각각 북한 AS와 관련(연결)있는 AS로 유추
 
 ![Screenshot from 2021-08-12 20-46-55](https://user-images.githubusercontent.com/47383452/129191977-6efd9ced-de9f-4ae3-aa2e-c2f940dbaee3.png)
