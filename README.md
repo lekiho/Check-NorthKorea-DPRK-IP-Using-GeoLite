@@ -1,4 +1,4 @@
-# Check-NorthKorea-DPRK-IP
+# Check-NorthKorea-DPRK-IP-Using-GeoLite
 North Korea(DPRK) IP할당 대역 / 위도, 경도 확인하기
  * Ubuntu 20.04
  * Maxmind GeoLite2 data file
