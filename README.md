@@ -1,12 +1,12 @@
 # Check-NorthKorea-DPRK-IP
 North Korea(DPRK) IP할당 대역 / 위도, 경도 확인하기
  * Ubuntu 20.04
- * Maxmind사 GeoLite2 data file
+ * Maxmind GeoLite2 data file
 
 한국인터넷정보센터(KRNIC)의 국가별 IP 할당 대역을 보면,
 ![Screenshot from 2021-08-12 20-07-23](https://user-images.githubusercontent.com/47383452/129186969-57c9a619-f3a3-49e9-8454-9bd5bd3775ce.png)
 
-프리픽스 /22로 1,024개의 IP대역이 할당 된 것을 알 수 있다. 더 자세히 확인해봅시다.
+Prefix /22로 1,024개의 IP대역이 할당 되어있음
 
 Ubuntu terminal GeoLite2 데이터(AS번호, 국가, 도시명)를 열어서 확인해보겠습니다. 해당 데이터는 매주 화요일에 업데이트 되며, 해당 사이트에서 다운로드 가능합니다.
 
