@@ -1,6 +1,5 @@
 # Check-NorthKorea-DPRK-IP-Using-GeoLite
 North Korea(DPRK) IP할당 대역 / 위도, 경도 확인하기
- * Ubuntu 20.04
  * Maxmind GeoLite2 data file
 
 한국인터넷정보센터(KRNIC)의 국가별 IP 할당 대역을 보면,
@@ -21,7 +20,5 @@ Geoname_id로 IPv4 Block을 확인해보면, 아까 KRNIC에 나온 175.45.176.0
 Cymru로도 체크해보았는데, ASNUM을 대조해보면 다른 결과를 얻을 수 있었습니다.
 
 ![Screenshot from 2021-08-12 21-38-24](https://user-images.githubusercontent.com/47383452/129198120-5c7953df-5009-49ac-b81e-7cf77a1db767.png)
-
-각각 북한 AS와 관련(연결)있는 AS로 유추
 
 ![Screenshot from 2021-08-12 20-46-55](https://user-images.githubusercontent.com/47383452/129191977-6efd9ced-de9f-4ae3-aa2e-c2f940dbaee3.png)
