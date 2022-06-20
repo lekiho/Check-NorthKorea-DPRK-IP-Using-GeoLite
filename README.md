@@ -1,18 +1,17 @@
 # Check-NorthKorea-DPRK-IP-Using-GeoLite
-North Korea(DPRK) IP할당 대역 / 위도, 경도 확인
+North Korea(DPRK) IP
  * Maxmind GeoLite2 data file
 
-한국인터넷정보센터(KRNIC)의 국가별 IP 할당 대역
+한국인터넷정보센터(KRNIC)의 국가별 IP
 ![Screenshot from 2021-08-12 20-07-23](https://user-images.githubusercontent.com/47383452/129186969-57c9a619-f3a3-49e9-8454-9bd5bd3775ce.png)
 
-Prefix /22로 1,024개의 IP대역이 할당
+Prefix /22 1,024
 
-Ubuntu terminal GeoLite2 데이터(AS번호, 국가, 도시명)을 확인. 데이터는 매주 화요일에 업데이트 되며, 해당 사이트에서 다운로드 가능.
-
+Ubuntu terminal GeoLite2 (AS번호, 국가, 도시명). 
 ![Screenshot from 2021-08-12 20-28-49](https://user-images.githubusercontent.com/47383452/129189496-00130463-2617-4232-acfa-e6166b7e7413.png)
 
 국가코드 "KP"로 보면, 위와 같이 geoname_id는 1873107
-City데이터로 보았을 때, locale_code는 다르지만 TIME ZONE은 해당칼럼이 평양으로 확인.
+City데이터로 보았을 때, locale_code/ TIME ZONE
 
 ![Screenshot from 2021-08-12 20-43-02](https://user-images.githubusercontent.com/47383452/129191098-d1f4f686-e469-40ad-8e83-2b1c73bbe9e9.png)
 
